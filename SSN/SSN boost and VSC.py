@@ -11,7 +11,7 @@ Db = sdi.create_signal( sdi.get_column('Db',psim_txtfile) )
 Dc = sdi.create_signal( sdi.get_column('Dc',psim_txtfile) )
 
 h=1e-6 # Time step
-tMax = 0.08;  # Simulation time.
+tMax = 0.03;  # Simulation time.
 time = np.arange(0,tMax,h) # Time vector
 
 # GROUP B:----------------------------------------------------------------------------------------------------------------
