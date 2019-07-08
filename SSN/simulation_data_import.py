@@ -39,6 +39,4 @@ def create_signal(L): #Transforma em lista de numeros
     return L_new
 
 
-Da = create_signal( get_column('Time','simulation_data.txt') )
-
 
